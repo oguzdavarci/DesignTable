@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>DesignTable</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<aside id="kenar">
+  <div class="surukleme"></div>
+  <div class="marka"><span class="marka-isaret"><i></i><i></i><i></i></span>DesignTable</div>
+  <div class="kenar-baslik">Projeler</div>
+  <ul id="projeler"></ul>
+  <div class="kenar-alt">
+    <button id="proje-ekle" class="dugme ikincil" title="project.json içeren bir klasörü listeye ekle">Proje ekle</button>
+    <button id="yeni-proje" class="dugme ikincil" title="Şablondan boş bir proje oluştur">Yeni proje</button>
+  </div>
+</aside>
+<main id="ana">
+  <header id="ust"></header>
+  <section id="icerik"></section>
+</main>
+<div id="buyuk" hidden></div>
+<div id="pencere" hidden></div>
+<div id="bildirimler"></div>
+<script src="flow-renderer.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

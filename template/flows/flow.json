@@ -1,0 +1,28 @@
+{
+  "ad": "Ekran akışı",
+  "aciklama": "Ekranlar arası geçişler",
+  "olcek": 0.42,
+  "dugumler": [
+    {
+      "id": "ilk",
+      "ekran": "first-screen",
+      "x": 40,
+      "y": 40
+    },
+    {
+      "id": "ikinci",
+      "ekran": "second-screen",
+      "x": 320,
+      "y": 40
+    }
+  ],
+  "oklar": [
+    {
+      "kaynak": "ilk",
+      "hedef": "ikinci",
+      "etiket": "Devam ⇄ Geri",
+      "cift": true
+    }
+  ],
+  "notlar": []
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Sepet</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<script src="../shared/components.js"></script>
+</head>
+<body>
+<div class="ekran">
+  <kd-durum></kd-durum>
+  <div class="a yuvarlak ctr" data-hedef="geri" style="left:16px;top:58px"><kd-ikon ad="geri" style="width:22px;height:22px"></kd-ikon></div>
+  <div class="a ctr" style="left:95px;top:58px;width:200px;height:44px;font-size:17px;font-weight:700">Sepetim</div>
+  <div class="a ctr soluk" style="left:300px;top:58px;width:74px;height:44px;font-size:14px;font-weight:600">Temizle</div>
+
+  <!-- Ürünler -->
+  <div class="a panel row" style="left:20px;top:122px;width:350px;height:96px;padding:0 14px 0 12px;gap:12px">
+    <kd-fincan icecek="latte" boyut="64"></kd-fincan>
+    <div style="flex:1">
+      <div style="font-size:16px;font-weight:650">Karamel Latte</div>
+      <div class="soluk" style="font-size:13px;margin-top:3px">Orta · Yulaf sütü</div>
+      <div class="fiyat" style="font-size:15px;margin-top:8px">₺145</div>
+    </div>
+    <div class="row" style="gap:12px;font-size:16px;font-weight:700">
+      <div class="ctr" style="width:30px;height:30px;border-radius:15px;box-shadow:inset 0 0 0 1.5px var(--Cizgi)"><kd-ikon ad="eksi" style="width:14px;height:14px"></kd-ikon></div>1
+      <div class="ctr ekle" style="width:30px;height:30px"><kd-ikon ad="arti" style="width:14px;height:14px"></kd-ikon></div>
+    </div>
+  </div>
+  <div class="a panel row" style="left:20px;top:230px;width:350px;height:96px;padding:0 14px 0 12px;gap:12px">
+    <kd-fincan icecek="latte" boyut="64"></kd-fincan>
+    <div style="flex:1">
+      <div style="font-size:16px;font-weight:650">Flat White</div>
+      <div class="soluk" style="font-size:13px;margin-top:3px">Küçük · İnek sütü</div>
+      <div class="fiyat" style="font-size:15px;margin-top:8px">₺125</div>
+    </div>
+    <div class="row" style="gap:12px;font-size:16px;font-weight:700">
+      <div class="ctr" style="width:30px;height:30px;border-radius:15px;box-shadow:inset 0 0 0 1.5px var(--Cizgi)"><kd-ikon ad="eksi" style="width:14px;height:14px"></kd-ikon></div>1
+      <div class="ctr ekle" style="width:30px;height:30px"><kd-ikon ad="arti" style="width:14px;height:14px"></kd-ikon></div>
+    </div>
+  </div>
+
+  <!-- Yanına iyi gider -->
+  <div class="a baslik" style="left:20px;top:348px;font-size:17px">Yanına iyi gider</div>
+  <div class="a panel" style="left:20px;top:380px;width:170px;height:76px;padding:14px 14px">
+    <div class="a" style="left:14px;top:16px;width:44px;height:44px;border-radius:12px;background:var(--Mocha)"></div>
+    <div class="a" style="left:20px;top:22px;width:32px;height:10px;border-radius:5px;background:var(--Kopuk);opacity:.35"></div>
+    <div class="a" style="left:70px;top:14px;font-size:15px;font-weight:650">Brownie</div>
+    <div class="a fiyat soluk" style="left:70px;top:40px;font-size:14px">₺85</div>
+    <div class="a ekle ctr" style="left:128px;top:34px;width:30px;height:30px"><kd-ikon ad="arti" style="width:14px;height:14px"></kd-ikon></div>
+  </div>
+  <div class="a panel" style="left:200px;top:380px;width:170px;height:76px">
+    <div class="a" style="left:14px;top:16px;width:44px;height:44px;border-radius:22px;background:var(--Latte)"></div>
+    <div class="a" style="left:24px;top:26px;width:7px;height:7px;border-radius:4px;background:var(--Espresso)"></div>
+    <div class="a" style="left:38px;top:36px;width:6px;height:6px;border-radius:3px;background:var(--Espresso)"></div>
+    <div class="a" style="left:27px;top:44px;width:6px;height:6px;border-radius:3px;background:var(--Espresso)"></div>
+    <div class="a" style="left:70px;top:14px;font-size:15px;font-weight:650">Kurabiye</div>
+    <div class="a fiyat soluk" style="left:70px;top:40px;font-size:14px">₺55</div>
+    <div class="a ekle ctr" style="left:128px;top:34px;width:30px;height:30px"><kd-ikon ad="arti" style="width:14px;height:14px"></kd-ikon></div>
+  </div>
+
+  <!-- İndirim kodu -->
+  <div class="a row vurgu-zemin" style="left:20px;top:476px;width:350px;height:54px;border-radius:16px;padding:0 16px;gap:10px;font-size:15px;font-weight:650">
+    <kd-ikon ad="etiket" style="width:20px;height:20px"></kd-ikon>
+    <span style="flex:1">KAHVE20 uygulandı</span>
+    <span style="font-size:14px;opacity:.8">Değiştir</span>
+  </div>
+
+  <!-- Özet -->
+  <div class="a panel" style="left:20px;top:546px;width:350px;height:192px;padding:18px 18px;font-size:15px">
+    <div class="row" style="justify-content:space-between"><span class="soluk">Ara toplam</span><span class="fiyat">₺270</span></div>
+    <div class="row" style="justify-content:space-between;margin-top:14px"><span class="soluk">İndirim (%20)</span><span class="fiyat" style="color:var(--Vurgu)">−₺54</span></div>
+    <div class="row" style="justify-content:space-between;margin-top:14px"><span class="soluk">Teslim alma</span><span style="font-weight:600">Karaköy · Ücretsiz</span></div>
+    <div style="height:1px;background:var(--Cizgi);margin:18px 0 16px"></div>
+    <div class="row" style="justify-content:space-between;font-size:18px;font-weight:750"><span>Toplam</span><span class="fiyat">₺216</span></div>
+  </div>
+
+  <div class="a ctr buton" data-hedef="order-confirmed" style="left:20px;top:760px;width:350px">Siparişi ver · ₺216</div>
+</div>
+</body>
+</html>

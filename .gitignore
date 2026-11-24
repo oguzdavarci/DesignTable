@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+# Claude için yerel notlar; depoya girmez
+CLAUDE.md
+CLAUDE.local.md
+# build/icon-source/icon-1024.png'den üretilen ara dosyalar (build/icon.icns depoda)
+build/icon-source/icon.iconset/

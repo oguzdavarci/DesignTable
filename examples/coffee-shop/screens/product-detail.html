@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Ürün detayı</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<script src="../shared/components.js"></script>
+</head>
+<body>
+<div class="ekran">
+  <!-- Üst görsel alanı -->
+  <div class="a" style="left:0;top:0;width:390px;height:392px;border-radius:0 0 36px 36px;background:color-mix(in srgb, var(--Vurgu) 18%, var(--Zemin))"></div>
+  <kd-durum></kd-durum>
+  <div class="a yuvarlak ctr" data-hedef="geri" style="left:16px;top:58px"><kd-ikon ad="geri" style="width:22px;height:22px"></kd-ikon></div>
+  <div class="a yuvarlak ctr" style="left:330px;top:58px;color:var(--Vurgu)"><kd-ikon ad="kalp" class="dolu" style="width:20px;height:20px"></kd-ikon></div>
+  <kd-fincan icecek="latte" boyut="236" class="a" style="left:77px;top:118px"></kd-fincan>
+
+  <!-- Ad, puan, fiyat -->
+  <div class="a" style="left:20px;top:418px;font-size:28px;font-weight:750;letter-spacing:-.5px">Karamel Latte</div>
+  <div class="a fiyat" style="left:270px;top:422px;width:100px;text-align:right;font-size:24px;color:var(--Vurgu)">₺145</div>
+  <div class="a row soluk" style="left:20px;top:458px;gap:6px;font-size:14px">
+    <kd-ikon ad="yildiz" class="dolu" style="width:16px;height:16px;color:var(--Vurgu)"></kd-ikon>
+    <span style="color:var(--Yazi);font-weight:650">4,8</span> · 320 değerlendirme
+  </div>
+  <div class="a soluk" style="left:20px;top:490px;width:350px;font-size:15px;line-height:22px">Çift shot espresso, buharda ısıtılmış süt ve ev yapımı karamel sos. Üstünde ince süt köpüğü.</div>
+
+  <!-- Boy -->
+  <div class="a etiket soluk" style="left:20px;top:558px">Boy</div>
+  <div class="a row" style="left:20px;top:582px;gap:10px">
+    <div class="secim ctr" style="width:110px;height:52px;flex-direction:column">Küçük<span class="soluk" style="font-size:12px;font-weight:500">240 ml</span></div>
+    <div class="secim ctr secili" style="width:110px;height:52px;flex-direction:column">Orta<span style="font-size:12px;font-weight:500;opacity:.8">350 ml</span></div>
+    <div class="secim ctr" style="width:110px;height:52px;flex-direction:column">Büyük<span class="soluk" style="font-size:12px;font-weight:500">470 ml</span></div>
+  </div>
+
+  <!-- Süt -->
+  <div class="a etiket soluk" style="left:20px;top:654px">Süt</div>
+  <div class="a row" style="left:20px;top:678px;gap:8px">
+    <div class="secim ctr" style="height:40px;padding:0 18px">İnek</div>
+    <div class="secim ctr secili" style="height:40px;padding:0 18px">Yulaf</div>
+    <div class="secim ctr" style="height:40px;padding:0 18px">Badem</div>
+    <div class="secim ctr" style="height:40px;padding:0 18px">Laktozsuz</div>
+  </div>
+
+  <!-- Adet ve sepete ekle -->
+  <div class="a row sayac" style="left:20px;top:760px;width:124px">
+    <kd-ikon ad="eksi" class="soluk" style="width:18px;height:18px"></kd-ikon>1<kd-ikon ad="arti" style="width:18px;height:18px"></kd-ikon>
+  </div>
+  <div class="a ctr buton" data-hedef="cart" style="left:156px;top:760px;width:214px">Sepete ekle · ₺145</div>
+</div>
+</body>
+</html>

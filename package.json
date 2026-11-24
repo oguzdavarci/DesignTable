@@ -1,0 +1,28 @@
+{
+  "name": "designtable",
+  "productName": "DesignTable",
+  "version": "0.1.0",
+  "description": "Tasarım projelerini (ekranlar, akışlar, bileşenler) bir arada gösteren sade masaüstü aracı",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oguzdavarci/DesignTable.git"
+  },
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "png": "electron . --png",
+    "akis-png": "electron . --akis-png",
+    "zip": "electron . --zip",
+    "goruntu": "electron . --arayuz-goruntusu",
+    "paketle": "electron-packager . DesignTable --platform=darwin --arch=arm64 --out=dist --overwrite --icon=build/icon.icns --ignore=^/dist --ignore=^/build/icon-source"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "electron": "^39.0.0",
+    "@electron/packager": "^18.3.0"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ad": "Yeni proje",
+  "aciklama": "Kısa açıklama",
+  "cihaz": {
+    "ad": "iPhone 15/16",
+    "genislik": 390,
+    "yukseklik": 844
+  },
+  "degiskenler": [
+    {
+      "id": "tema",
+      "ad": "Tema",
+      "varsayilan": "acik",
+      "secenekler": [
+        {
+          "id": "acik",
+          "ad": "Açık",
+          "renk": "#F6F4F0",
+          "degerler": {
+            "--Zemin": "#F6F4F0",
+            "--Panel": "#FFFFFF",
+            "--Vurgu": "#3D5AFE",
+            "--VurguUstu": "#FFFFFF",
+            "--Yazi": "#1F1F1F",
+            "--YaziSoluk": "rgba(31, 31, 31, .6)"
+          }
+        },
+        {
+          "id": "koyu",
+          "ad": "Koyu",
+          "renk": "#17181C",
+          "degerler": {
+            "--Zemin": "#17181C",
+            "--Panel": "#24262C",
+            "--Vurgu": "#8C9EFF",
+            "--VurguUstu": "#0D1033",
+            "--Yazi": "#F2F2F2",
+            "--YaziSoluk": "rgba(242, 242, 242, .6)"
+          }
+        }
+      ]
+    }
+  ],
+  "ekranlar": [
+    {
+      "id": "first-screen",
+      "ad": "İlk ekran",
+      "dosya": "screens/first-screen.html",
+      "durum": "taslak",
+      "not": "Şablondan gelen örnek ekran."
+    },
+    {
+      "id": "second-screen",
+      "ad": "İkinci ekran",
+      "dosya": "screens/second-screen.html",
+      "durum": "taslak",
+      "not": "Prototip bağlantısı örneği."
+    }
+  ],
+  "akislar": [
+    {
+      "id": "flow",
+      "ad": "Ekran akışı",
+      "dosya": "flows/flow.json"
+    }
+  ],
+  "prototip": {
+    "baslangic": "first-screen"
+  }
+}

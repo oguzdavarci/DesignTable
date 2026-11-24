@@ -1,0 +1,89 @@
+{
+  "ad": "Sipariş akışı",
+  "aciklama": "Ana sayfadan sipariş onayına giden yol",
+  "olcek": 0.42,
+  "dugumler": [
+    {
+      "id": "ana",
+      "ekran": "home",
+      "x": 40,
+      "y": 110
+    },
+    {
+      "id": "urun",
+      "ekran": "product-detail",
+      "x": 350,
+      "y": 110
+    },
+    {
+      "id": "sepet",
+      "ekran": "cart",
+      "x": 660,
+      "y": 110
+    },
+    {
+      "id": "odeme",
+      "tur": "durum",
+      "baslik": "Ödeme",
+      "alt": "Kayıtlı kart",
+      "vurgu": true,
+      "x": 950,
+      "y": 255,
+      "gen": 160,
+      "yuk": 64
+    },
+    {
+      "id": "onay",
+      "ekran": "order-confirmed",
+      "x": 1220,
+      "y": 110
+    }
+  ],
+  "oklar": [
+    {
+      "kaynak": "ana",
+      "hedef": "urun",
+      "etiket": "Ürüne dokun"
+    },
+    {
+      "kaynak": "urun",
+      "hedef": "sepet",
+      "etiket": "Sepete ekle"
+    },
+    {
+      "kaynak": "ana",
+      "hedef": "sepet",
+      "etiket": "Sepet ikonu",
+      "cikis": "ust",
+      "giris": "ust",
+      "kulvar": 56
+    },
+    {
+      "kaynak": "sepet",
+      "hedef": "odeme",
+      "etiket": "Siparişi ver"
+    },
+    {
+      "kaynak": "odeme",
+      "hedef": "onay",
+      "etiket": "Onaylandı"
+    },
+    {
+      "kaynak": "onay",
+      "hedef": "ana",
+      "etiket": "Ana sayfaya dön",
+      "cikis": "alt",
+      "giris": "alt",
+      "kulvar": 590,
+      "kesik": true
+    }
+  ],
+  "notlar": [
+    {
+      "metin": "Aynı yolu Prototip sekmesinde tıklayarak deneyebilirsin.",
+      "x": 500,
+      "y": 630,
+      "gen": 420
+    }
+  ]
+}

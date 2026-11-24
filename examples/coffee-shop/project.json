@@ -1,0 +1,72 @@
+{
+  "ad": "Kahve Durağı",
+  "aciklama": "Örnek proje: kahve sipariş uygulaması",
+  "cihaz": {
+    "ad": "iPhone 15/16",
+    "genislik": 390,
+    "yukseklik": 844
+  },
+  "degiskenler": [
+    {
+      "id": "tema",
+      "ad": "Tema",
+      "varsayilan": "krem",
+      "secenekler": [
+        {
+          "id": "krem",
+          "ad": "Krem",
+          "renk": "#F7F1EA",
+          "degerler": {
+            "--Zemin": "#F7F1EA",
+            "--Panel": "#FFFFFF",
+            "--PanelIkinci": "#EFE5DA",
+            "--Cizgi": "rgba(60, 40, 25, .10)",
+            "--Yazi": "#2B1D14",
+            "--YaziSoluk": "rgba(43, 29, 20, .56)",
+            "--Tabak": "#EADCCD",
+            "--FincanKenar": "#FFFFFF",
+            "--Golge": "rgba(60, 40, 25, .08)"
+          }
+        },
+        {
+          "id": "gece",
+          "ad": "Gece",
+          "renk": "#1C1714",
+          "degerler": {
+            "--Zemin": "#16120F",
+            "--Panel": "#231D19",
+            "--PanelIkinci": "#2E2621",
+            "--Cizgi": "rgba(255, 240, 225, .10)",
+            "--Yazi": "#F5ECE3",
+            "--YaziSoluk": "rgba(245, 236, 227, .58)",
+            "--Tabak": "#3A302A",
+            "--FincanKenar": "#F1E8DF",
+            "--Golge": "rgba(0, 0, 0, .35)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "renk",
+      "ad": "Vurgu",
+      "varsayilan": "karamel",
+      "secenekler": [
+        { "id": "karamel", "ad": "Karamel", "renk": "#C8794A", "degerler": { "--Vurgu": "#C8794A", "--VurguUstu": "#FFFFFF" } },
+        { "id": "nane", "ad": "Nane", "renk": "#2F9E7A", "degerler": { "--Vurgu": "#2F9E7A", "--VurguUstu": "#FFFFFF" } },
+        { "id": "bogurtlen", "ad": "Böğürtlen", "renk": "#8E4585", "degerler": { "--Vurgu": "#8E4585", "--VurguUstu": "#FFFFFF" } }
+      ]
+    }
+  ],
+  "ekranlar": [
+    { "id": "home", "ad": "Ana sayfa", "dosya": "screens/home.html", "durum": "maket", "not": "Öne çıkan kahve, kategoriler ve popüler ürünler." },
+    { "id": "product-detail", "ad": "Ürün detayı", "dosya": "screens/product-detail.html", "durum": "maket", "not": "Boy ve süt seçimi, adet, sepete ekleme." },
+    { "id": "cart", "ad": "Sepet", "dosya": "screens/cart.html", "durum": "maket", "not": "Ürünler, indirim kodu ve sipariş özeti." },
+    { "id": "order-confirmed", "ad": "Sipariş alındı", "dosya": "screens/order-confirmed.html", "durum": "taslak", "not": "Hazırlanma durumu; metinler kesinleşmedi." }
+  ],
+  "akislar": [
+    { "id": "order-flow", "ad": "Sipariş akışı", "dosya": "flows/order-flow.json" }
+  ],
+  "prototip": {
+    "baslangic": "home"
+  }
+}
